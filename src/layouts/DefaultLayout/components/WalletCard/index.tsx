@@ -19,7 +19,7 @@ export function WalletCard({ balance, showFormatted }: WalletCardProps) {
         title="Plinko Points"
         className="rounded-tr-md rounded-br-md bg-purpleDark p-2 font-bold text-white"
       >
-        PP
+        SCRIM
       </span>
     </div>
   )

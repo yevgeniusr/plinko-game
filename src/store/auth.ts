@@ -98,7 +98,7 @@ export const useAuthStore = create<State>((setState, getState) => ({
       if (balance >= 10) {
         toast.remove()
         toast.error(
-          'Você precisa ter o saldo menor abaixo de 10 para resgatar o presente'
+          'You need to have the lowest balance below 10 to redeem the gift'
         )
         return
       }

@@ -1,4 +1,4 @@
-import plinkoLogo from '@images/logo.svg'
+import plinkoLogo from '@images/scrimmageLogo.png'
 import classNames from 'classnames'
 import { Gift, SignOut } from 'phosphor-react'
 import { Link } from 'react-router-dom'
@@ -29,7 +29,7 @@ export function Navbar() {
         )}
       >
         <Link to={inGameBallsCount ? '#!' : '/'}>
-          <img src={plinkoLogo} alt="" className="w-32 md:w-40" />
+          <img src={plinkoLogo} alt="" className="w-16 md:w-16 object-contain" />
         </Link>
         {isAuth && (
           <div className="flex items-stretch gap-4">
