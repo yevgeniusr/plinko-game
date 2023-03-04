@@ -150,7 +150,7 @@ export const useAuthStore = create<State>((setState, getState) => ({
       }
       setState(state => ({ ...state, isLoading: false }))
     } catch (error) {
-      toast.error('Ocorreu um erro ao fazer login')
+      toast.error('Error during login')
       console.error('signInError', error)
     }
   },
